@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F1EB;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.logo-container img {
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}
+
+nav li {
+    
+    
+   
+    padding: 5px;
+}
+
+.nav-link {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+   font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
