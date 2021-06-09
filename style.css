@@ -1,8 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+      
+}
+body {
     background-color: #F6F1EB;
 }
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -15,9 +19,6 @@ header {
 }
 
 nav li {
-    
-    
-   
     padding: 5px;
 }
 
@@ -36,4 +37,116 @@ nav li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
+}
+
+.backgroundpic img {
+    width: 200px;
+    left: 0;
+    
+    margin-top: -100px;
+    position: absolute;
+   
+    top: 50%;
+    width: 100%;
+}
+
+.frontsite h1 {
+    z-index: 1;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'newyork';
+}
+
+.frontsite {
+    height: 1000px;
+}
+
+.mepic img{
+    width: 100px;
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
+}
+
+.info h1 {
+    font-family: 'newyork';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 35px;
+}
+
+.info p {
+    font-family: 'montserrat';
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.info2 {
+    font-family: 'montserrat';
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.projecttext h1 {
+    font-family: 'newyork';
+    padding-top: 100px;
+    padding-bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+.contact h1{
+    font-family: 'newyork';
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.contact p{
+    font-family: 'montserrat';
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.contactlogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactlogo .netlify {
+    width: 90px;
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contactlogo .github {
+    width: 90px;
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contactsite {
+    background-color: #d1cbc4;;
+   
 }
