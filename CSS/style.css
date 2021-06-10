@@ -59,6 +59,7 @@ nav li {
     top: 50%;
     width: 100%;
     font-size: 26px;
+    height: 600px;
     font-family: 'newyork';
 }
 
@@ -153,6 +154,30 @@ nav li {
    
 }
 
+button  {
+    display: flex;
+    justify-content: center;
+    
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    padding: 7px;
+    margin: auto;
+    background-color: #00515a;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 0;
+    height: 35px;
+}
+
+button a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: 'montserrat';
+}
+
 /* JavaScript */
 
 .blog h2 {
@@ -188,5 +213,77 @@ nav li {
     .frontsite h1 {
         font-size: 100px;
         font-weight: lighter;
+    }
+
+    .mepic img{
+        padding-top: 150px;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact h1 {
+        font-size: 60px;
+        font-weight: lighter;
+    }
+
+    .contactlogo .netlify {
+        width: 100px;
+    }
+    
+    .contactlogo .github {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mepic img{
+        padding-top: 300px;
+    }
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .info h1 {
+        
+        font-size: 60px;
+    }
+    
+    .info p {
+        font-size: 20px;
+    }
+
+    .info2 h2 {
+        font-size: 30px;
+    }
+
+    .info2 li {
+        font-size: 20px;
+    }
+
+    .projecttext h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .frontsite h1 {
+        font-size: 150px;
+    }
+
+    .mepic img{
+        padding-top: 700px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .frontsite h1 {
+        font-size: 250px;
+    }
+    .mepic img{
+        padding-top: 1500px;
     }
 }
