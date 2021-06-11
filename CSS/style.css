@@ -18,27 +18,6 @@ header {
     padding: 10px;
 }
 
-nav li {
-    padding: 5px;
-}
-
-.nav-link {
-    list-style: none;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  
-   font-size: 15px;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.nav-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-}
-
 .backgroundpic img { 
     position: absolute;
     top: 30%;
@@ -135,14 +114,14 @@ nav li {
     grid-template-columns: 1fr 1fr;
 }
 
-.contactlogo .netlify {
+.contactlogo a img {
     width: 90px;
     margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-.contactlogo .github {
+.contactlogo img {
     width: 90px;
     margin-left: auto;
   margin-right: auto;
